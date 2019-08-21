@@ -95,6 +95,9 @@ h1 {
     width: 49%;
 
 }
+.content-block2 {
+    width: 32%;
+}
 
 .middle-img {
     /* width: 90%; */
@@ -115,7 +118,8 @@ h1 {
 	display: flex;
 	align-items: baseline;
 	text-align: left;
-	margin: 10px;
+    margin: 10px;
+    border-top: 1px solid black;
 }
 
 .services-header-img {
@@ -134,4 +138,41 @@ button {
 button:hover {
     background: black;
     color: white;
+}
+
+/* ---------Start Services Page---------- */
+.container-1 {
+	padding: 0px 0px 40px 0px;
+    border-bottom: 2px solid black;
+    margin: 0px 0px 40px 0px;
+}
+
+.container-2 {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	border-bottom: 2px solid black;
+
+}
+
+.container-3 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.box-2 {   
+	height: 250px;
+    width: 400px;
+	margin: 0;
+	margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    background: #f3f3f3 ;
+
+}
+.box-3 {
+	margin: 0;
+	padding: 20px;
+	
 }
