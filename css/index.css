@@ -21,20 +21,6 @@ footer {
 	margin: 20px;
 }
 
-/* h1 {
-	margin: 0px 50px 00px 50px;
-	font-size: 60px;
-	text-align: center;
-} */
-
-   /* a {	 
-    display: inline-block;
-	margin: 10px 20px 30px 10px;
-
- } */
-
- 
- 
  
 .container {
     width: 900px;
@@ -100,10 +86,9 @@ h1 {
 }
 
 .middle-img {
-    /* width: 90%; */
-	height: 20%;
-	/* margin: 10px 10px 10px 10px; */
-	
+    
+	height: 40%;
+		
 }
 .middleSection {
 	display: flex;
@@ -175,4 +160,93 @@ button:hover {
 	margin: 0;
 	padding: 20px;
 	
+}
+/* -------Media Queries------- */
+@media(max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+     nav {
+      display: flex;
+      margin-top: 35px;
+      margin-left: 15%;
+    }
+
+    .logo {
+     
+
+
+    }
+     
+    .main {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid black;
+
+    }
+    h1 { 
+      justify-content: center;
+    }
+
+   .topImage {
+      display: none;
+          
+    }
+    .topSection   {
+        display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+        
+  }
+    .middleSection {
+      display: flex;
+     justify-content: space-around;
+     align-items: center;
+      
+    }
+    .content-block1 {
+        width: 35%
+    }
+    
+    .content-block2{
+      
+    }
+
+    .middleImage {
+        
+      width: 100%;
+      
+    }
+    .contact {
+      display: flex;
+      justify-content: flex-start;
+    }
+  } 
+  
+
+@media(max-width: 500px) {
+  nav {
+
+  }
+.main {
+
+}
+.main .topImage {
+  display: none;
+}
+.topSection {
+
+}
+.middleSection {
+
+}
+.content-block1 {
+
+}
+.content-block2 {
+
+}
 }
