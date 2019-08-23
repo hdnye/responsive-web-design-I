@@ -161,7 +161,6 @@ button:hover {
 }
 
 .box-2 {   
-	height: 250px;
     width: 400px;
 	  margin: 0;
     margin-bottom: 40px;
@@ -201,11 +200,11 @@ button:hover {
       list-style: none;
       padding: 0 20px;
     }
-    
-    .logo-containter {
+    .logo-container {
       display: flex;
       justify-content: center;
-    } 
+    }
+   
     .main {
         display: flex;
         justify-content: center;
