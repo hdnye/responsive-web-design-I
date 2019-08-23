@@ -263,6 +263,7 @@ button:hover {
     text-align: center;
     font-size: 2rem;
     border-top: 1px solid;
+    padding: 0 0 2% 0;
   } 
  li:last-child {
    border-bottom: 1px solid;
