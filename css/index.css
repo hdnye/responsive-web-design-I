@@ -26,7 +26,10 @@ footer {
     width: 900px;
     margin: 0 auto;
 }
-
+header {
+  display: flex;
+  width: 100%;
+}
 header nav {
     display: flex;
     width: 100%;
@@ -51,9 +54,20 @@ header nav {
   header nav a:last-child {
     margin-right: 0;
   }
-  
+   
+  ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  li {
+    list-style: none;
+  }
   header .logo {
-    margin-top: 25px;
+    margin-top: 10px;
   }
  
   
