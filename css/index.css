@@ -208,7 +208,7 @@ button:hover {
           
     }
     .topSection   {
-        display: flex;
+       display: flex;
 	    justify-content: space-around;
 	    align-items: center;
         
@@ -243,25 +243,47 @@ button:hover {
   
 
 @media(max-width: 500px) {
-  nav {
-
+  
+  .container {
+    width: 100%;
+    margin: auto;
   }
-.main {
+   header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }  
 
-}
+ ul {
+   display: flex;
+   flex-direction: column;
+
+ }
+  li  {
+    text-align: center;
+    font-size: 2rem;
+    border-top: 1px solid;
+  } 
+ li:last-child {
+   border-bottom: 1px solid;
+ }
 .main .topImage {
   display: none;
 }
 .topSection {
+  display: flex;
+  flex-direction: column;
 
 }
 .middleSection {
-
+  display: flex;
+  flex-direction: column;
 }
 .content-block1 {
+  width: 100%;
 
 }
 .content-block2 {
-
+  width: 100%;
 }
 }
