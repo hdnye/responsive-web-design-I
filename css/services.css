@@ -79,6 +79,7 @@ header nav {
       flex-direction: column;
       padding: 20px;
   }
+  
   li.list {
     list-style-type: square;
   }
@@ -96,33 +97,117 @@ header nav {
   	padding: 0px 0px 40px 0px;
     border-bottom: 2px solid black;
     margin: 0px 0px 40px 0px;
-}
+  }
 
-.container-2 {
-	display: flex;
-	justify-content: space-between;
-	flex-flow: row wrap;
-	border-bottom: 2px solid black;
+  .container-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    border-bottom: 2px solid black;
 
-}
+  }
 
-.container-3 {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-}
+  .container-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 
-.box-2 {   
-    width: 400px;
-	  margin: 0;
-    margin-bottom: 40px;
+  .box-2 {   
+      width: 400px;
+      margin: 0;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 1px solid black;
+      background: #f3f3f3 ;
+
+  }
+  .box-3 {
+    margin: 0;
     padding: 20px;
-    border: 1px solid black;
-    background: #f3f3f3 ;
+    
+  }
+  
+  .button {
+    border: 1px double black;
+    width: 40%;
+    height: 15%;
+    background: white;
+    border-radius: 7px;
+    font-size: .8rem;
+    margin: 2% 0;
+  }
+  /* <----------Media Queries------------> */
+  @media(max-width: 800px) {
+    
+    .container {
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  
+  }  
 
-}
-.box-3 {
-	margin: 0;
-	padding: 20px;
-	
-}
+  ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    padding: 0 20px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-1{
+
+  }
+  .container-2 {
+
+
+  }
+  .containter-3 {
+
+  } 
+
+  @media(max-width: 500px){
+
+    .container {
+
+    }
+
+    header nav {
+
+    }
+
+    ul {
+
+    
+    }
+
+    .logo-container{
+
+    }
+
+  
+
+  .container-1{
+
+  }
+  .container-2 {
+
+
+  }
+  .containter-3 {
+    
+  }
