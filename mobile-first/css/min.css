@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 /* <----Min-Wdith-Content----> */
 
 .container {
-    max-width: 500px;
+    min-width: 500px;
     margin: auto;
   }
   
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5 {
 
  .main {
 	display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
 	padding: 25px;
 	border-bottom: 1px solid black;	
@@ -126,3 +126,99 @@ img.middle-img {
 .content-block2 {
   width: 100%;
 }
+/* <-------Media Queries--------> */
+
+@media(min-width: 768px) {
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 100%;
+}  
+
+ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+h1 { 
+  justify-content: space-around;
+}
+
+.topImage {
+  /* display: none; */
+      
+}
+.topSection   {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-around;
+  /* align-items: center; */
+    
+}
+.middleSection {
+ display: flex; 
+ flex-flow: wrap;
+ justify-content: space-around;
+ align-items: center;
+  
+}
+
+
+.content-block1 {
+    width: 49%
+}
+
+.content-block2{
+  width: 30%;
+
+}
+
+.middleImage {
+  width: 100%
+  
+}
+.contact {
+  display: flex;
+  justify-content: flex-start;
+ }
+}
+
+
+
+
+
+
+
